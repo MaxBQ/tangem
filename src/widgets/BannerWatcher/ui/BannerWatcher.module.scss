@@ -1,0 +1,16 @@
+.bannerFixed {
+  position: fixed;
+  right: 34px;
+  bottom: -370px;
+  opacity: 0;
+  transition: all 0.7s ease-in;
+  @media screen and (max-width: 600px) {
+    left: 0;
+    right: 0;
+  }
+}
+
+.show {
+  opacity: 1;
+  bottom: 34px;
+}

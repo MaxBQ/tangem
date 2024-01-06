@@ -1,0 +1,15 @@
+@import 'reset';
+@import 'variables/global';
+
+body {
+  font: var(--font-m);
+  color: var(--primary-color);
+}
+
+.app {
+  background: var(--bg-color);
+  min-height: 200vh;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}

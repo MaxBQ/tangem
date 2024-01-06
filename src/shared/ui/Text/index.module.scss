@@ -1,0 +1,59 @@
+$fromGradient: -webkit-linear-gradient(90deg, rgba(125, 83, 23, 1) 0%, rgba(237, 223, 149, 1) 100%);
+$toGradient: linear-gradient(to left, rgba(210, 152, 26, 0.6), rgba(210, 152, 26, 0.6));
+$defaultColor: var(--primary-color);
+$goldColor: var(--secondary-color);
+$grayColor: #6c6c70;
+$fromBlackGradient: -webkit-linear-gradient(
+  90deg,
+  rgba(255, 255, 255, 0.5) 0%,
+  rgba(255, 255, 255, 0) 100%
+);
+$toBlackGradient: linear-gradient(to left, #0b0b0b, #0b0b0b);
+
+.default {
+  color: $defaultColor;
+}
+.gold {
+  color: $goldColor;
+}
+.blackGradient {
+  background: $fromBlackGradient, $toBlackGradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.goldGradient {
+  background: $fromGradient, $toGradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gray {
+  color: $grayColor;
+}
+
+.sizeM {
+  font: var(--font-m);
+}
+.sizeL {
+  font: var(--font-l);
+}
+.sizeXL {
+  font: var(--font-xl);
+}
+
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+
+.medium {
+  font-weight: var(--font-medium);
+}
+
+.semibold {
+  font-weight: var(--font-semibold);
+}
